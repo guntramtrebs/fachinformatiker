@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Minimale Javascript Demo</title>
+</head>
+
+<body>
+    <h1>Minimale Javascript Demo</h1>
+    <div id="">
+        <button onclick="runJavascript()">run Javascript</button> 
+        <button onclick="clearOutput()">clear output</button>
+    </div>
+    <div id="htmloutput">
+    </div>
+</body>
+<script src="minimal.js"></script>
+
+<script>
+
+    // diese Funktion wird bei Klick auf Button aufgerufen
+    function runJavascript() {
+        htmlOutput.print("Ausgabe auf der Webseite");
+        console.log("Ausgabe auf der Console");
+
+        // Die folgende Zeile bei Interesse einkommentieren
+        // Auskommentiert, da nervig und uninteressant.
+        // alert("Ausgabe im Popup");
+    }
+
+</script>
+
+</html>
